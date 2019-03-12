@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav1 {
+  line-height: 8vh;
+  background: lightgreen;
+  height: 8vh;
+}
+.nav1 a {
+  text-decoration: none;
+  color: black;
+}
+.body1 {
+  background: gray;
+  height: 100vh;
+}
+.body1:before {
+  content: "";
+  display: table;
+}
+.body1-div {
+  margin: 25vh auto;
+  
+}
+.body1 h1 {
+  height: 5vh;
+  line-height: 5vh;
+}
+.body1 h4 {
+  height: 15vh;
+  line-height: 15vh;
+}
+.body1 .social-media {
+
+}
+.body1 .social-media a {
+  width: 10rem;
+  text-decoration: none;
+  color: black;
+}
+.body2 {
+  background: lightblue;
+  height: 100vh;
+  font-size: 1.3rem;
+}
+.body2 .row {
+  padding: 5rem;
+  height: 20rem;
+}
+.body3 {
+  background: pink;
+  height: 100vh;
+}
+.body3:before {
+  content: "";
+  display: table;
+}
+.body3 .row1 {
+  margin-top: 10vh;
+}
+.body3 .row a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+.body3 .row h4 {
+  padding-top: 3vh;
+   height: 7vh;
+  width: 40vh;
+}
+.body3 .row img {
+  height: 35vh;
+  width: 35vh;
+  border: 0.1rem solid brown;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem;
+}
+.body3 .row img:hover {
+  border: 0.2rem solid green;
+}
+.body4 {
+  padding: 45vh;
+  background: gray;
+  height: 100vh;
+  font-size: 2rem;
+}
